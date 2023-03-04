@@ -34,7 +34,7 @@ class LocalFileManager {
         }
     }
     
-    func getImage(imageName: String, folderName: String)
+//    func getImage(imageName: String, folderName: String)
     
     private func createFolderIfNeede(folderName: String) {
         guard let url = getURLForFolder(folderName: folderName) else {return}
