@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D7E446B29B37DEB006E6186 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */; };
 		2D85785829A0E57A00A43D86 /* CryptoPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85785729A0E57A00A43D86 /* CryptoPortfolioApp.swift */; };
 		2D85785A29A0E57A00A43D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85785929A0E57A00A43D86 /* ContentView.swift */; };
 		2D85785F29A0E57B00A43D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D85785E29A0E57B00A43D86 /* Preview Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		2D85785429A0E57A00A43D86 /* CryptoPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D85785729A0E57A00A43D86 /* CryptoPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPortfolioApp.swift; sourceTree = "<group>"; };
 		2D85785929A0E57A00A43D86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				2DDB236F29A3B5EB00190329 /* NetworkingManager.swift */,
+				2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				2DE3E03729A3731100A83238 /* CoinRowView.swift in Sources */,
 				2DDB236A29A3993400190329 /* HomeViewModel.swift in Sources */,
 				2D85785A29A0E57A00A43D86 /* ContentView.swift in Sources */,
+				2D7E446B29B37DEB006E6186 /* LocalFileManager.swift in Sources */,
 				2D85786F29A0E99900A43D86 /* HomeView.swift in Sources */,
 				2DDB237329A3C58F00190329 /* CoinImageView.swift in Sources */,
 				2D85785829A0E57A00A43D86 /* CryptoPortfolioApp.swift in Sources */,
