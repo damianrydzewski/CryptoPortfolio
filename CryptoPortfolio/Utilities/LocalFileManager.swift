@@ -8,6 +8,11 @@
 import Foundation
 import SwiftUI
 
+///
+///```
+///Saving local files
+///```
+///
 class LocalFileManager {
     
     static let instance = LocalFileManager()
@@ -34,7 +39,18 @@ class LocalFileManager {
         }
     }
     
-//    func getImage(imageName: String, folderName: String)
+    func getImage(imageName: String, folderName: String) -> UIImage? {
+        
+        guard
+            let url = getURLForImage(imageName: imageName, folderName: folderName),
+            FileManager.default.fileExists(atPath: url.path)
+        else {
+            return nil
+        }
+        
+        return UIImage(contentsOfFile: url.path)
+        
+    }
     
     private func createFolderIfNeede(folderName: String) {
         guard let url = getURLForFolder(folderName: folderName) else {return}
