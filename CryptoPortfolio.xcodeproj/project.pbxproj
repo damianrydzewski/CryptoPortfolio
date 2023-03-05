@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D49013929B4ADC100595F78 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49013829B4ADC100595F78 /* SearchBarView.swift */; };
+		2D49013B29B4D16400595F78 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49013A29B4D16400595F78 /* UIApplication.swift */; };
 		2D7E446B29B37DEB006E6186 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */; };
 		2D85785829A0E57A00A43D86 /* CryptoPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85785729A0E57A00A43D86 /* CryptoPortfolioApp.swift */; };
 		2D85785A29A0E57A00A43D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85785929A0E57A00A43D86 /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		2D49013829B4ADC100595F78 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		2D49013A29B4D16400595F78 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		2D85785429A0E57A00A43D86 /* CryptoPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D85785729A0E57A00A43D86 /* CryptoPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPortfolioApp.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				2D85786829A0E7A100A43D86 /* Color.swift */,
 				2DE3E03829A373E200A83238 /* PreviewProvider.swift */,
 				2DE3E03A29A37C6000A83238 /* Double.swift */,
+				2D49013A29B4D16400595F78 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				2D85786F29A0E99900A43D86 /* HomeView.swift in Sources */,
 				2DDB237329A3C58F00190329 /* CoinImageView.swift in Sources */,
 				2D85785829A0E57A00A43D86 /* CryptoPortfolioApp.swift in Sources */,
+				2D49013B29B4D16400595F78 /* UIApplication.swift in Sources */,
 				2D85787329A0EBB800A43D86 /* CircleButtonView.swift in Sources */,
 				2D85786929A0E7A100A43D86 /* Color.swift in Sources */,
 				2D49013929B4ADC100595F78 /* SearchBarView.swift in Sources */,
