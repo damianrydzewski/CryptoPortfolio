@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D49013929B4ADC100595F78 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49013829B4ADC100595F78 /* SearchBarView.swift */; };
 		2D7E446B29B37DEB006E6186 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */; };
 		2D85785829A0E57A00A43D86 /* CryptoPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85785729A0E57A00A43D86 /* CryptoPortfolioApp.swift */; };
 		2D85785A29A0E57A00A43D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85785929A0E57A00A43D86 /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D49013829B4ADC100595F78 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		2D7E446A29B37DEB006E6186 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		2D85785429A0E57A00A43D86 /* CryptoPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D85785729A0E57A00A43D86 /* CryptoPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPortfolioApp.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				2DDB237129A3C58300190329 /* CoinImage */,
 				2D85787129A0EBAC00A43D86 /* CircleButton */,
+				2D49013829B4ADC100595F78 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				2D85785829A0E57A00A43D86 /* CryptoPortfolioApp.swift in Sources */,
 				2D85787329A0EBB800A43D86 /* CircleButtonView.swift in Sources */,
 				2D85786929A0E7A100A43D86 /* Color.swift in Sources */,
+				2D49013929B4ADC100595F78 /* SearchBarView.swift in Sources */,
 				2DDB237029A3B5EB00190329 /* NetworkingManager.swift in Sources */,
 				2D85787529A0F1A800A43D86 /* CircleButtonAnimationView.swift in Sources */,
 				2DDB237729A3DCA000190329 /* CoinImageViewModel.swift in Sources */,
@@ -422,7 +426,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +458,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
