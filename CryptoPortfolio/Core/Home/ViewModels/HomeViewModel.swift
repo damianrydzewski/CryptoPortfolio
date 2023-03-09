@@ -13,6 +13,14 @@ class HomeViewModel: ObservableObject {
     @Published var portolioCoins: [Coin] = []
     @Published var searchText: String = ""
     
+    // Temporary mock data
+    @Published var stats: [Statistic] = [
+        Statistic(title: "Market Cap", value: "$12.5Bn", percentageChange: 25.34),
+        Statistic(title: "Total volume", value: "$5.5Bn", percentageChange: -25.34),
+        Statistic(title: "Current price", value: "$234.5Bn", percentageChange: 25.34),
+        Statistic(title: "Portfolio value", value: "$3244.5Bn", percentageChange: -25.34)
+    ]
+    
     private let dataService = CoinDataService()
     private var cancellables = Set<AnyCancellable>()
     
